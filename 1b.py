@@ -25,4 +25,3 @@ with open("data/1a.txt", "r") as f:
             current_calories = 0
             
 print("The {} elves carrying the most calories worth of starfruit have a total of {} calories".format(top_n_elves, sum(max_calories)))
-        
